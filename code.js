@@ -22,5 +22,6 @@ function hasil() {
 }
 
 window.addEventListener("load",proses);
+window.addEventListener("load",hasil);
 fakultasNode.addEventListener("change",proses);
-jurusanNode.addEventListener("change",hasil);
+jurusanNode.addEventListener("click",hasil);
